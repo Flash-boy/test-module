@@ -1,0 +1,24 @@
+# Created by .gitignore support plugin (hsz.mobi)
+.idea
+**/.idea/
+bower_components/
+static/
+*.iml
+**/target/
+/.settings/
+.project
+.classpath
+extended-logs
+extended-logs/
+logs
+logs/
+
+/extended-logs/
+/logs/
+
+/data/*.yml
+/data/*.properties
+/conf/templates/
+/error-extended-logs/
+/conf/
+/conf/k8s-template/
