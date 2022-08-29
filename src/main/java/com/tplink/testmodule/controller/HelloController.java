@@ -14,4 +14,6 @@ public class HelloController {
     public String getInfo(){
         return "test-module echo info\n";
     }
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String getTest() { return "best wish to you!\n";}
 }
